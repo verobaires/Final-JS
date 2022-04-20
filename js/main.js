@@ -139,13 +139,7 @@ const accionBotones = () => {
     botonesAgregar.forEach(btn => {
         btn.addEventListener('click', () => {
           
-            Swal.fire({
-                position: 'top-middle',
-                icon: 'success',
-                title: 'Agregaste un item!!!',
-                showConfirmButton: false,
-                timer: 1500
-              })
+            
 
 
             const producto = compra[btn.dataset.id]
