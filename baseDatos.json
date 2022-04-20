@@ -1,0 +1,74 @@
+[
+    {
+        "precio": 5000,
+        "id": 1,
+        "title": "BARCELONA",
+        "thumbnailUrl": "images/shop/products/baby/girl-babie-girl500x600.png"
+    }, 
+    {
+        "precio": 13000,
+        "id": 2,
+        "title": "PARIS",
+        "thumbnailUrl": "images/shop/products/baby/girl-babie-girl500x600.png"
+    },
+    {
+        "precio": 20100,
+        "id": 3,
+        "title": "VENECIA",
+        "thumbnailUrl": "images/shop/products/baby/girl-babie-girl500x600.png"
+    },
+    {
+        "precio": 10500,
+        "id": 4,
+        "title": "EDIMBURGO",
+        "thumbnailUrl": "images/shop/products/baby/girl-babie-girl500x600.png"
+    },
+    {
+        "precio": 10000,
+        "id": 5,
+        "title": "SUECIA",
+        "thumbnailUrl": "images/shop/products/baby/girl-babie-girl500x600.png"
+    },
+    {
+        "precio": 15000,
+        "id": 6,
+        "title": "MEXICO",
+        "thumbnailUrl": "images/shop/products/baby/girl-babie-girl500x600.png"
+    },
+    {
+        "precio": 5000,
+        "id": 7,
+        "title": "PERU",
+        "thumbnailUrl": "images/shop/products/baby/girl-babie-girl500x600.png"
+    },
+    {
+        "precio": 8000,
+        "id": 8,
+        "title": "VENEZUELA",
+        "thumbnailUrl": "images/shop/products/baby/girl-babie-girl500x600.png"
+    },
+    {
+        "precio": 9000,
+        "id": 9,
+        "title": "DOMINICANA",
+        "thumbnailUrl": "images/shop/products/baby/girl-babie-girl500x600.png"
+    },
+    {
+        "precio": 16500,
+        "id": 10,
+        "title": "MADRID",
+        "thumbnailUrl": "images/shop/products/baby/girl-babie-girl500x600.png"
+    },
+    {
+        "precio": 3000,
+        "id": 11,
+        "title": "INDIA",
+        "thumbnailUrl": "images/shop/products/baby/girl-babie-girl500x600.png"
+    },
+    {
+        "precio": 6000,
+        "id": 12,
+        "title": "PORTUGAL",
+        "thumbnailUrl": "images/shop/products/baby/girl-babie-girl500x600.png"
+    }
+]
