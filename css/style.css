@@ -2665,5 +2665,5 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 
 .top-header .dropdown-menu {
   width: 50rem;
-  max-width: 0;
+  
 }
