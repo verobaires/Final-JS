@@ -159,24 +159,6 @@ const accionBotones = () => {
         btn.addEventListener('click', () => {
            
 
-            Swal.fire({
-                title: 'Segura?',
-                text: "Vamos a borrar un item!",
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonColor: '#3085d6',
-                cancelButtonColor: '#d33',
-                confirmButtonText: 'Si!'
-              }).then((result) => {
-                if (result.isConfirmed) {
-                  Swal.fire(
-                    'Borrado!',
-                    'Tu item fue eliminado.',
-                    'success'
-                  )
-                }
-              })
-
 
             
             const producto = compra[btn.dataset.id]
