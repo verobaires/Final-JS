@@ -77,8 +77,8 @@ const completarCarrito = () => {
         template.querySelector('span').textContent = producto.precio * producto.cantidad
         
         //botones
-        template.querySelector('.btn-info').dataset.id = producto.id
-        template.querySelector('.btn-danger').dataset.id = producto.id
+        template.querySelector('.btn-outline-dark').dataset.id = producto.id
+        template.querySelector('.btn-outline-light').dataset.id = producto.id
 
         const clone = template.cloneNode(true)
         fragment.appendChild(clone)
@@ -131,8 +131,8 @@ const pintarFooter = () => {
 }
 
 const accionBotones = () => {
-    const botonesAgregar = document.querySelectorAll('#items .btn-info')
-    const botonesEliminar = document.querySelectorAll('#items .btn-danger')
+    const botonesAgregar = document.querySelectorAll('#items .btn-outilne-dark')
+    const botonesEliminar = document.querySelectorAll('#items .btn-outline-light')
 
  
 
