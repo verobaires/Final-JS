@@ -18,6 +18,24 @@
         "thumbnailUrl": "images/shop/products/baby/girl-babyGirl-rabbit500x600.png"
     }, 
     {
+        "precio": 5000,
+        "id": 1,
+        "title": "BARCELONA",
+        "thumbnailUrl": "images/shop/products/baby/girl-babie-girl500x600.png"
+    }, 
+    {
+        "precio": 13000,
+        "id": 2,
+        "title": "PARIS",
+        "thumbnailUrl": "images/shop/products/baby/girl-babyGirl-dress500x600.png"
+    },  
+    {
+        "precio": 20100,
+        "id": 3,
+        "title": "VENECIA",
+        "thumbnailUrl": "images/shop/products/baby/girl-babyGirl-rabbit500x600.png"
+    }
+   /*  {
         "precio": 10500,
         "id": 4,
         "title": "EDIMBURGO",
@@ -155,6 +173,6 @@
         "title": "PORTUGAL",
         "thumbnailUrl": "images/shop/products/women/women-yellowfancy-dress500x600.png"
     }
-
+ */
 ]
  
