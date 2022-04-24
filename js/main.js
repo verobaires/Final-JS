@@ -45,20 +45,21 @@ const detectarBotones = (data) => {
 //deberia sumar item al clickear
     botones.forEach(btn => {
         btn.addEventListener('click', () => {
-          
+            /* sweetalet para avisar que se sumo un nuevo articulo al carrito */
+           Swal.fire({
+                    position: 'top-middle',
+                    icon: 'success',
+                    title: 'Agregaste un nuevo item al carrito!',
+                    showConfirmButton: false,
+                    timer: 1500
+                  })
             const producto = data.find(item => item.id === parseInt(btn.dataset.id))
             producto.cantidad = 1
 
             if (compra.hasOwnProperty(producto.id)) {
                 producto.cantidad = compra[producto.id].cantidad + 1
-/* sweetalet para avisar que se sumo al carrito */
-                Swal.fire({
-                    position: 'top-middle',
-                    icon: 'success',
-                    title: 'Agregaste un item al carrito!',
-                    showConfirmButton: false,
-                    timer: 1500
-                  })
+
+               
             }
             compra[producto.id] = { ...producto }
           
