@@ -51,16 +51,13 @@ const detectarBotones = (data) => {
 
             if (compra.hasOwnProperty(producto.id)) {
                 producto.cantidad = compra[producto.id].cantidad + 1
-
-
+/* sweetalet para avisar que se sumo al carrito */
                 Swal.fire({
-                    title: 'Agregaste un producto al carrito',
-                    showClass: {
-                      popup: 'animate__animated animate__fadeInDown'
-                    },
-                    hideClass: {
-                      popup: 'animate__animated animate__fadeOutUp'
-                    }
+                    position: 'top-middle',
+                    icon: 'success',
+                    title: 'Agregaste un item al carrito!',
+                    showConfirmButton: false,
+                    timer: 1500
                   })
             }
             compra[producto.id] = { ...producto }
