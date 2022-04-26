@@ -2644,7 +2644,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 /*# sourceMappingURL=style.css.map */
-.logo img{width:50%}
+.logo img{width:60%}
 .header{
     display:flex;
     align-items:center;
