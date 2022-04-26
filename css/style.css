@@ -2667,3 +2667,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   width: 50rem;
   max-width: 60rem
 }
+/* ////////////////////cambio media para imagenes */
+@media(min-width: 992px){
+  .col-md-4{width: 24%;}
+}
